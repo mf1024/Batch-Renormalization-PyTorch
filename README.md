@@ -6,12 +6,4 @@ Currently there is only 2D implementation for conv nets.
 
 Usage is the same as for PyTorch [BatchNorm2D](https://pytorch.org/docs/stable/nn.html#batchnorm2d) class:
 You intialize an instance by providing number of features (number of channels in conv layer).
-Input is expected to be in shape (N, C, H, W), where:
-
-N - number of camples per batch
-
-C - number of channels
-
-H - height
-
-W - width
+Input is expected to be in shape (N, C, H, W), where: (N - number of camples per batch, C - number of channels, H - height, W - width)
